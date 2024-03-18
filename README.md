@@ -50,7 +50,7 @@ mkdir .devcontainer
 git submodule add https://github.com/containercraft/konductor .github/konductor
 git submodule update --init .github/konductor
 git submodule update --remote --merge .github/konductor
-rsync -av .github/konductor/devcontainer/* .devcontainer
+rsync -av .github/konductor/.devcontainer/* .devcontainer
 ```
 
 To update the devcontainer submodule in consuming repos:
